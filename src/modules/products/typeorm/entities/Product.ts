@@ -18,7 +18,7 @@ class Product {
     price: number;
 
     @Column('int')
-    qauantity: number;
+    quantity: number;
 
     @CreateDateColumn()
     created_at: Date;
